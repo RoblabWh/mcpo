@@ -1,3 +1,4 @@
+# THIS FORK IS FOR PYTHON 3.10 (NVIDIA JETSON ORIN AGX)
 # ⚡️ mcpo
 
 Expose any MCP tool as an OpenAPI-compatible HTTP server—instantly.
