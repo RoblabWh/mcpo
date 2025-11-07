@@ -5,7 +5,12 @@ from starlette.middleware.base import BaseHTTPMiddleware
 import base64
 
 from passlib.context import CryptContext
-from datetime import UTC, datetime, timedelta
+
+###### Fix for Python 3.10 ######
+#from datetime import UTC, datetime, timedelta
+from datetime import datetime, timedelta, timezone
+UTC = timezone.utc
+#################################
 
 import jwt
 from typing import Optional, Union, List, Dict
